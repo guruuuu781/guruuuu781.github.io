@@ -84,17 +84,23 @@
       color: #ff0033;
     }
 
-    /* Animated G Logo */
+    /* Animated Text G Logo */
     .animated-logo {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       margin: 0 auto 20px;
-      background: url('https://yt3.ggpht.com/a/AGF-lPwGZ3j5RZ6Kd7sUQ9q3iQfQv7JZJQeXaYyJjA=s800-c-k-c0x00ffffff-no-rj') no-repeat center;
-      background-size: cover;
+      background: #000;
       border: 3px solid #ff0033;
-      animation: pulse 2s infinite, glow 2s infinite alternate;
+      color: #ff0033;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       box-shadow: 0 0 15px rgba(255, 0, 51, 0.6);
+      animation: pulse 2s infinite, glow 2s infinite alternate;
     }
 
     @keyframes pulse {
@@ -193,7 +199,7 @@
   <div id="subscribePopup" class="popup">
     <div class="popup-content">
       <span class="close" onclick="closePopup()">&times;</span>
-      <div class="animated-logo"></div>
+      <div class="animated-logo">G</div>
       <h2>🔔 Subscribe to Guruuuu!</h2>
       <p>Never miss a gaming drop — turn on notifications and join the squad!</p>
       <a href="https://youtube.com/@guruuuu781" target="_blank" class="btn">Subscribe on YouTube</a>
